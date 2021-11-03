@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React, { Component } from "react";
 import GuessControl from "./GuessControl";
 import GuessMessage from "./GuessMessage";
 import GameOver from "./GameOver";
 
 const MAX_ATTEMPTS = 5;
-
 /**
  *
  * Returns a random integer number from 1-100 inclusive
